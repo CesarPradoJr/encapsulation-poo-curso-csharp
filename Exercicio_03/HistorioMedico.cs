@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace encapsulation_poo_curso_csharp;
+namespace encapsulation_poo_curso_csharp.Exercicio_03;
 internal class HistorioMedico
 {
     public string CodigoProntuario { get; set; }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("encapsulation-poo-curso-csharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+484000896d69d8b257c6884eaeab79b884d22fc7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a4d25adcbd557724239a8be9a16a5e4b3de1e31")]
 [assembly: System.Reflection.AssemblyProductAttribute("encapsulation-poo-curso-csharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("encapsulation-poo-curso-csharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

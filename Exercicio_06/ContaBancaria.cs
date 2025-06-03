@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace encapsulation_poo_curso_csharp
+namespace encapsulation_poo_curso_csharp.Exercicio_06
 {
     class ContaBancaria
     {
@@ -14,7 +14,7 @@ namespace encapsulation_poo_curso_csharp
         public ContaBancaria(string titular, double saldoInicial)
         {
             Titular = titular;
-            this.saldo = saldoInicial;
+            saldo = saldoInicial;
         }
 
         public void Sacar(double valorSaque)

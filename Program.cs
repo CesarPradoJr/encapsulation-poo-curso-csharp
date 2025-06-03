@@ -1,4 +1,13 @@
-﻿using encapsulation_poo_curso_csharp;
+﻿using encapsulation_poo_curso_csharp.Exercicio_01;
+using encapsulation_poo_curso_csharp.Exercicio_02;
+using encapsulation_poo_curso_csharp.Exercicio_03;
+using encapsulation_poo_curso_csharp.Exercicio_04;
+using encapsulation_poo_curso_csharp.Exercicio_05;
+using encapsulation_poo_curso_csharp.Exercicio_06;
+using encapsulation_poo_curso_csharp.Exercicio_07;
+using encapsulation_poo_curso_csharp.Exercicio_08;
+using encapsulation_poo_curso_csharp.Exercicio_09;
+using encapsulation_poo_curso_csharp.Exercicio_10;
 using System.Reflection.Metadata;
 
 class Program
@@ -65,7 +74,23 @@ class Program
 
         Console.WriteLine("----------------------------------------------------------------");
 
+        Curso curso = new Curso("Programação C#", 2);
+        curso.Matricular(new Estudante_Exercicio_09("Ana Paula"));
+        curso.Matricular(new Estudante_Exercicio_09("Joao"));
+        curso.Matricular(new Estudante_Exercicio_09("Mirela"));
+        curso.ListarMatriculados();
+        Console.WriteLine($"Vagas disponíveis: {curso.VagasDisponiveis}");
 
+        Console.WriteLine("----------------------------------------------------------------");
+
+        Hospede hospede = new Hospede("Carlos Silva");
+        Quarto quarto = new Quarto(101);
+        quarto.ValorDiaria = 150.00;
+        Reserva reserva = new Reserva(hospede, quarto, 3);
+
+        Console.WriteLine($"Reserva para {reserva.Hospede.Nome}");
+        Console.WriteLine($"Quarto: {reserva.Quarto.Numero}");
+        Console.WriteLine($"Valor total da reserva: R${reserva.ValorTotal.ToString("F2")}");
 
     }
 }
